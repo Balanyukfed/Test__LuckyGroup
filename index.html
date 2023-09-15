@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Test</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo"><img src="/src/logo.png" alt="logo"></div>
+                <ul class="links">
+                    <li><a href="">Mobile Top Up</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Rate</a></li>
+                    <li><a href="">Help</a></li>
+                </ul>
+                <button>sign up</button>
+                <div class="burger">
+                    <div class="burger__button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="burger__menu">
+                        <ul class="links">
+                            <li><a href="">Mobile Top Up</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Rate</a></li>
+                            <li><a href="">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <div class="column">
+                <div class="column__info">
+                    <div class="text">
+                        <div class="text__title">
+                            <p>
+                                now buy your
+                                PIN or <span>top up</span>
+                                with bank transfer
+                            </p>
+                        </div>
+                        <div class="text__description">
+                            We Make international calling simple, relible, and cheap basedon your unique calling
+                            behavior.
+                        </div>
+                    </div>
+                    <button>get started</button>
+                </div>
+                
+                <div class="search">
+                    <img src="src/girl.png" alt="girl learn languages">
+                    <form onsubmit="alert('Submitted')">
+                        <input type="search" id="mySearch" placeholder="Where do you want to call?">
+                        <div id="error" style="color: red; top: 10px; left: 20px; position: relative;"></div>
+                        <button type="submit">
+                            <svg width="22" height="23" viewBox="0 0 22 23" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.37512 10.4307C2.37512 6.25787 5.75786 2.87514 9.93068 2.87514C14.1035 2.87514 17.4862 6.25787 17.4862 10.4307C17.4862 12.4674 16.6804 14.3158 15.3701 15.6746C15.3338 15.7022 15.2988 15.7325 15.2657 15.7657C15.2325 15.7989 15.2021 15.8338 15.1746 15.8702C13.8158 17.1804 11.9674 17.9862 9.93068 17.9862C5.75786 17.9862 2.37512 14.6035 2.37512 10.4307ZM15.9435 17.8577C14.3014 19.1888 12.2092 19.9862 9.93068 19.9862C4.65329 19.9862 0.375122 15.7081 0.375122 10.4307C0.375122 5.15331 4.65329 0.875137 9.93068 0.875137C15.2081 0.875137 19.4862 5.15331 19.4862 10.4307C19.4862 12.7092 18.6888 14.8014 17.3577 16.4435L21.332 20.4178C21.7225 20.8083 21.7225 21.4415 21.332 21.832C20.9414 22.2225 20.3083 22.2225 19.9178 21.832L15.9435 17.8577Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+                <div class="people">
+                    <div class="people__cards">
+                        <div class="people__card"><span></span></div>
+                        <div class="people__card"><span></span></div>
+                        <div class="people__card"><span></span></div>
+                        <div class="people__card"><span></span></div>
+                    </div>
+                    <div class="people__description">45k+ Regular User. <span>View Price Plan</span></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="orbit">
+                    <div><span></span></div>
+                    <div class="orbiting-ball" style="--y:-2; --x:0; --i:1"></div>
+                    <div class="orbiting-ball" style="--y:-1; --x:-1.8; --i:2"></div>
+                    <div class="orbiting-ball" style="--y:-1; --x:1.8; --i:3"></div>
+                    <div class="orbiting-ball" style="--y:1; --x:1.8; --i:1"></div>
+                    <div class="orbiting-ball" style="--y:1; --x:-1.8; --i:2"></div>
+                    <div class="orbiting-ball" style="--y:2; --x:0; --i:3"></div>
+                </div>
+                <img src="src/girl.png" alt="girl learn languages">
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
